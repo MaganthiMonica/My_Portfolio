@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M Nagamonica</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaQueries.css" />
+</head>
+
+<body>
+
+    <!-- Nav Bar Section -->
+    <nav id="desktop-nav">
+        <div class="logo">M Nagamonica</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#techstack">Tech Stack</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">M Nagamonica</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#techstack" onclick="toggleMenu()">Tech Stack</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">M Nagamonica</h1>
+            <p class="section__text__p2">Full Stack Web Developer</p>
+            <p class="section__text__p3">A passionate coder, who focuses on writing clean, elegant and efficient code.<br/>
+                Looking for a challenging role in software industry.</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('assets\\M_Nagamonica_Resume.pdf')">
+                    Download Resume
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <!-- <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/darshan-n-152a91155'" />
+                <img src="./assets/github.png" alt="My Github profile" class="icon"
+                    onclick="location.href='https://github.com/DarshanGit10'" />
+            </div> -->
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>BITM Institute of Technology, Bellary, KA <br>
+                            Bachelor of Engineering, AUG 2017 - AUG 2021<br>
+                             
+                           </p>
+                    </div>
+
+                    <div class="text-container">
+                        <p>
+                            Hi, I'm M Nagamonica, a passionate Full-stack web developer from India. I tend to make use of
+                            modern web technologies to build websites that look great, feel fantastic, and function
+                            correctly. I am especially focusing on MERN Stack Development.
+                            <br><br>
+                            Strong in design and integration with intuitive problem-solving skills. Passionate about
+                            implementing and launching new projects. Ability to translate business requirements into
+                            technical solutions. Looking to start my career as an entry-level software engineer with a
+                            reputed firm driven by technology.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+
+    <!-- Experience-->
+    <section id="experience" class="section">
+        <div class="section-content">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+        
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <div class="experience-item">
+                            <h3>FULL STACK DEVELOPER</h3>
+                            <p class="company">Zesar Technology | Bengaluru</p>
+                            <p class="date">MAY 2021 - NOV 2023</p>
+                            <br>
+                            <p style="text-align: left;"><strong>Job Responsibilities:</strong></p>
+                            <ul style="text-align: left; margin-left: 50px;">
+                                <li>Maintained complex technology infrastructure and collaborated with 
+                                    product team to implement new features and strategically plan for future 
+                                    products.</li>
+                                <li>Developed efficient and maintainable software according to business 
+                                    objectives and needs of clients.</li>
+                                <li>Developed Web application using React framework.</li>
+                                <li>Implement backend RESTful APIs using Nodejs and Express 
+                                    Framework</li>
+                                <li>Participated in requirements gathering to solidify prerequisites and 
+                                    determine the best technical solution to meet business needs.</li>
+                                <li>Reviewed code, debugged problems, and corrected issues.</li>
+                                <li>Performed unit testing on the application.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#techstack'" />
+    </section>
+    
+
+
+    <!-- tech Stack -->
+    <section id="techstack">
+        <p class="section__text__p1">Skills</p>
+        <h1 class="title">Tech Stack</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>React JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Mongo DB</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>My SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Git, Github</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <div class="project-display ">
+                            <img src="./assets/project_EG.png" alt="Project 1" class="project-img" />
+                            <div style="text-align: center;">
+                                <h3 class="experience-sub-title project-title" style="margin-bottom: 8px;">E-Commerce website
+                                </h3>
+                                <p class="section__text__p1 projecttext">The Groceries E-Commerce website incorporates essential features such as user authentication using JWT tokens, a user-friendly login and registration system, secure profile management, and a seamless cart and checkout process. These functionalities are crucial for providing a secure and convenient shopping experience for users.</p>
+                                <p class="section__text__p1 techtext">ReactJS, NodeJS, ExpressJS, MongoDB</p>
+                                <!-- <div class="btn-container">
+                                    <button class="btn btn-color-2 project-btn"
+                                        onclick="location.href='https://github.com/DarshanGit10/E_Commernce_Groceries'">
+                                        Github Repo
+                                    </button>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <div class="project-display ">
+                            <img src="./assets/project2.png" alt="Project 2" class="project-img" />
+                            <div style="text-align: center;">
+                                <h3 class="experience-sub-title project-title" style="margin-bottom: 8px;">Chat Application
+                                </h3>
+                                <p class="section__text__p1 projecttext">A chat application, that enables users to exchange text messages in real time</p>
+                                <p class="section__text__p1 techtext">ReactJS, NodeJS, ExpressJS, MongoDB, SocketIO</p>
+                                <div class="btn-container">
+                                    <button class="btn btn-color-2 project-btn"
+                                        onclick="location.href='https://github.com/DarshanGit10/ChatApp_MERN'">
+                                        Github Repo
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div> -->
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:nagamonica.1745b@gmail.com ">nagamonica.1745b@gmail.com </a></p>
+            </div>
+            <!-- <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/darshan-n-152a91155" target="_blank">LinkedIn</a></p>
+            </div> -->
+
+            <div class="contact-info-container">
+                <img src="./assets/phone.png" alt="Phone icon" class="icon contact-icon" />
+                <p>+91 6366425957</a></p>
+                <div class="contact-info-container">
+                    <img src="./assets/location.png" alt="Location icon" class="icon contact-icon" />
+                    <p>Bengaluru, IND</a></p>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#techstack">Tech Stack</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
